@@ -21,7 +21,10 @@ export default function Home() {
       />
       <meta name="author" content="Harrison Walton" />
       <Grid item xs={12}>
-        <HeroImage bgImage={"HeroImage2.png"}>
+        <HeroImage
+          bgImage={"HeroImage2.png"}
+          alt={"Image of Lucy wearing a magic word bracelet"}
+        >
           <TextTitle
             title={"Magic Word Bracelet"}
             subtitle={"Your Words, Your Magic"}
@@ -32,7 +35,10 @@ export default function Home() {
         <Reviews />
       </Spacer>
       <Grid item xs={12}>
-        <HeroImage bgImage={"heroCraft.jpg"}>
+        <HeroImage
+          bgImage={"heroCraft.jpg"}
+          alt={"Image showing how a magic word bracelet is made"}
+        >
           <CenterCenter>
             <TextTitle title={"Get Your Magic"} />
             <Center>

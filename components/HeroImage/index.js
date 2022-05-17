@@ -20,7 +20,7 @@ export const HeroImage = ({ bgImage, children }) => {
   );
 };
 
-export const HeroImageClean = ({ bgImage, children }) => {
+export const HeroImageClean = ({ bgImage, children, alt }) => {
   const styles = {
     heroContainer: {
       backgroundImage: `url('./${bgImage}')`,
@@ -34,7 +34,7 @@ export const HeroImageClean = ({ bgImage, children }) => {
   };
 
   return (
-    <Box sx={styles.heroContainer} priority={true}>
+    <Box sx={styles.heroContainer} priority={true} alt={alt}>
       {children}
     </Box>
   );
