@@ -6,6 +6,7 @@ import { TextBody, TextTitle } from "../components/Text";
 const about = () => {
   return (
     <>
+      <SpacerXs />
       <HeroImage bgImage={"heroAbout.jpeg"}>
         <TextTitle
           title={"About Me"}

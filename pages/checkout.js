@@ -17,16 +17,22 @@ const checkout = () => {
     description: getBasket(),
   };
   return (
-    <Grid container>
-      <Grid item xs={12}>
+    <Grid container backgroundColor="black">
+      <Grid item xs={12} backgroundColor="black">
         <SpacerSm />
         <SpacerSm>
           <TextTitle title={"Get Your Magic"} subtitle={"Place your order!"} />
         </SpacerSm>
         <Spacer bgcolor={"#363636"}>
-          <CenterCenter>
-            <PayPalCheckoutButton product={product} />
-          </CenterCenter>
+          <Grid container>
+            <Grid item xs={2} />
+            <Grid item xs={8}>
+              <Center>
+                <PayPalCheckoutButton product={product} />
+              </Center>
+            </Grid>
+            <Grid item xs={2} />
+          </Grid>
         </Spacer>
       </Grid>
     </Grid>

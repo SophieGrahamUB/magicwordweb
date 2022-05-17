@@ -9,7 +9,7 @@ export const HeroImage = ({ bgImage, children }) => {
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
       position: "relative",
-      height: 425,
+      height: 600,
       width: "100%",
     },
   };
