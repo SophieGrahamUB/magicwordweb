@@ -11,6 +11,15 @@ import { Linker } from "../components/Linker";
 export default function Home() {
   return (
     <Grid container>
+      <meta
+        name="keywords"
+        content="Magic, Word, Bracelet, Magicwordbracelet, personal, custom"
+      />
+      <meta
+        name="description"
+        content="The home of Magic Word Bracelet, a website designed so you can create your own magic word bracelets."
+      />
+      <meta name="author" content="Harrison Walton" />
       <Grid item xs={12}>
         <HeroImage bgImage={"HeroImage2.png"}>
           <TextTitle
