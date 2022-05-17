@@ -13,7 +13,11 @@ export const HeroImage = ({ bgImage, children }) => {
       width: "100%",
     },
   };
-  return <Box sx={styles.heroContainer}>{children}</Box>;
+  return (
+    <Box sx={styles.heroContainer} priority={true}>
+      {children}
+    </Box>
+  );
 };
 
 export const HeroImageClean = ({ bgImage, children }) => {
@@ -29,7 +33,11 @@ export const HeroImageClean = ({ bgImage, children }) => {
     },
   };
 
-  return <Box sx={styles.heroContainer}>{children}</Box>;
+  return (
+    <Box sx={styles.heroContainer} priority={true}>
+      {children}
+    </Box>
+  );
 };
 
 export const SmallImageMagic10 = ({ bgImage, children }) => {
