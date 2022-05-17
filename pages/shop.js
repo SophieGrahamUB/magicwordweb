@@ -13,7 +13,7 @@ const shop = () => {
         <SpacerXs></SpacerXs>
       </Grid>
       <Grid item xs={12}>
-        <HeroImage bgImage={"heroCraft.jpg"}>
+        <HeroImage bgImage={"heroCraft.webp"}>
           <Grid container height="100%">
             <Grid item xs={12}>
               <TextTitle

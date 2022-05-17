@@ -9,7 +9,7 @@ const shop = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <HeroImage bgImage={"heroCraft.jpg"}>
+        <HeroImage bgImage={"heroCraft.webp"}>
           <TextTitle
             title={"Make Your Magic"}
             subtitle={"Customise your bracelet"}

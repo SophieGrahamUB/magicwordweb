@@ -10,7 +10,7 @@ function magicDrinkDecaf() {
   return (
     <Grid container>
       <SpacerXs />
-      <HeroImage bgImage={"/ketones.png"}>
+      <HeroImage bgImage={"/ketones.webp"}>
         <TextTitle
           title="De-Caffeinated Magic"
           subtitle="Feel great, be great!"

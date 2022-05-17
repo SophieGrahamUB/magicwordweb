@@ -13,7 +13,7 @@ const magicdrink = () => {
       </Grid>
       <Grid item xs={12}>
         <Linker target="/magicDrinkCaff">
-          <HeroImage bgImage={"ketones.png"}>
+          <HeroImage bgImage={"ketones.webp"}>
             <TextTitle title="Caffinated" subtitle={"Shop now!"} />
           </HeroImage>
         </Linker>
@@ -23,7 +23,7 @@ const magicdrink = () => {
       </Grid>
       <Grid item xs={12}>
         <Linker target="/magicDrinkDecaf">
-          <HeroImage bgImage={"decafKetones.png"}>
+          <HeroImage bgImage={"decafKetones.webp"}>
             <Grid container height="100%">
               <Grid item xs={12}>
                 <TextTitle title="Decaf" subtitle={"Shop now!"} />

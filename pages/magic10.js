@@ -18,7 +18,7 @@ const magic10 = () => {
   return (
     <div>
       <SpacerSm />
-      <HeroImageClean bgImage="magic10.png"></HeroImageClean>
+      <HeroImageClean bgImage="magic10.webp"></HeroImageClean>
       <Spacer>
         <CenterCenter>
           <TextTitle title={"Become the better you"} />
@@ -40,7 +40,7 @@ const magic10 = () => {
         aria-describedby="alert-dialog-description"
       >
         <DialogContent sx={{ backgroundColor: "#1E1E1E" }}>
-          <SmallImageMagic10 bgImage={"magic10info.png"} />
+          <SmallImageMagic10 bgImage={"magic10info.webp"} />
         </DialogContent>
         <DialogActions sx={{ backgroundColor: "#1E1E1E" }}>
           <Button onClick={handleClose} sx={{ color: "#FFBC59" }}>

@@ -7,7 +7,7 @@ const about = () => {
   return (
     <>
       <SpacerXs />
-      <HeroImage bgImage={"heroAbout.jpeg"}>
+      <HeroImage bgImage={"heroAbout.webp"}>
         <TextTitle
           title={"About Me"}
           subtitle={"Let's get to know each other"}

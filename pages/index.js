@@ -22,7 +22,7 @@ export default function Home() {
       <meta name="author" content="Harrison Walton" />
       <Grid item xs={12}>
         <HeroImage
-          bgImage={"HeroImage2.png"}
+          bgImage={"HeroImage2.webp"}
           alt={"Image of Lucy wearing a magic word bracelet"}
         >
           <TextTitle
@@ -36,7 +36,7 @@ export default function Home() {
       </Spacer>
       <Grid item xs={12}>
         <HeroImage
-          bgImage={"heroCraft.jpg"}
+          bgImage={"heroCraft.webp"}
           alt={"Image showing how a magic word bracelet is made"}
         >
           <CenterCenter>

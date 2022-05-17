@@ -10,7 +10,7 @@ const magicDrinkCaff = () => {
   return (
     <Grid container>
       <SpacerXs />
-      <HeroImage bgImage={"/ketones.png"}>
+      <HeroImage bgImage={"/ketones.webp"}>
         <TextTitle
           title="Caffeinated Magic"
           subtitle="Full of energy and ketone goodness!"
