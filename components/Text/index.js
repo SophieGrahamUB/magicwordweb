@@ -24,7 +24,7 @@ export const TextBody = ({ bodyWhite, bodyYellow }) => {
   return (
     <>
       <Typography color="white">{bodyWhite && bodyWhite}</Typography>
-      <Typography sx={{ fontSize: { xs: 10, md: 15 } }} color="#FFBC59">
+      <Typography sx={{ fontSize: { xs: 12, md: 15 } }} color="#FFBC59">
         {bodyYellow && bodyYellow}
       </Typography>
     </>

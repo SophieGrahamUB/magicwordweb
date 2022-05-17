@@ -2,7 +2,7 @@ import React from "react";
 import { TextBody, TextTitle } from "../Text";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { CenterCenter } from "../Center";
+import { CenterCenter, Center } from "../Center";
 
 export const Reviews = () => {
   const review = [
@@ -22,6 +22,13 @@ export const Reviews = () => {
     },
   ];
 
+  const reviewStyle = {
+    review: {
+      width: "80%",
+      margin: "auto",
+    },
+  };
+
   return (
     <CenterCenter>
       <TextTitle title={"Reviews:"} />
@@ -39,7 +46,7 @@ export const Reviews = () => {
       >
         {review.map((item) => {
           return (
-            <div paddingleft="10%" paddingright="10%" key={item}>
+            <div key={item} style={reviewStyle.review}>
               <TextBody bodyYellow={item.review} />
               <TextBody bodyWhite={`-${item.name}`} />
             </div>
