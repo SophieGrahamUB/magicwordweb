@@ -2,7 +2,7 @@ import React from "react";
 import { TextBody, TextTitle } from "../Text";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { CenterCenter, Center } from "../Center";
+import { CenterCenter } from "../Center";
 
 export const Reviews = () => {
   const review = [

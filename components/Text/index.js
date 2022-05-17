@@ -1,5 +1,5 @@
 import React from "react";
-import { CenterCenter, Center, VerticalCenter } from "../Center";
+import { CenterCenter } from "../Center";
 import { Typography } from "@mui/material";
 
 export const TextTitle = ({ title, subtitle }) => {

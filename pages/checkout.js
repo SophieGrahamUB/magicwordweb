@@ -1,8 +1,8 @@
-import { Button, getListItemAvatarUtilityClass, Grid } from "@mui/material";
-import React, { useState } from "react";
-import { Center, CenterCenter } from "../components/Center";
+import { Grid } from "@mui/material";
+import React from "react";
+import { Center } from "../components/Center";
 import { PayPalCheckoutButton } from "../components/PayPal";
-import { SpacerL, SpacerSm, SpacerXL, Spacer } from "../components/Spacer";
+import { SpacerSm, Spacer } from "../components/Spacer";
 import { TextTitle } from "../components/Text";
 
 const checkout = () => {

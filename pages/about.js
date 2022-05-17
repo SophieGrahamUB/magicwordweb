@@ -1,7 +1,7 @@
 import React from "react";
-import { CenterCenter, Center } from "../components/Center";
+import { Center } from "../components/Center";
 import { HeroImage } from "../components/HeroImage";
-import { Spacer, SpacerSm, SpacerXs } from "../components/Spacer";
+import { SpacerSm, SpacerXs } from "../components/Spacer";
 import { TextBody, TextTitle } from "../components/Text";
 const about = () => {
   return (
