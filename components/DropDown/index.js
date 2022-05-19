@@ -65,8 +65,8 @@ export const DropDown = () => {
           style={styles.dropDown}
           onChange={(e) => setRingColor(e.target.value)}
         >
-          <option value={"Brass"}>Brass</option>
-          <option value={"Nickel"}>Nickel</option>
+          {/* <option value={"Brass"}>Brass</option>
+          <option value={"Nickel"}>Nickel</option> */}
           <option value={"Black"}>Black</option>
           <option value={"Rose Gold"}>Rose Gold</option>
         </select>
