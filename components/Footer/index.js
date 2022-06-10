@@ -24,7 +24,6 @@ export const Footer = ({ children }) => {
       </Grid>
       <Grid item xs={6} style={styles.footer}>
         <CenterCenter>
-          <TextBody bodyWhite={"Socials:"} />
           <Socials />
         </CenterCenter>
       </Grid>

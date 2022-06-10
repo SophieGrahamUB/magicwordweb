@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import { Linker, LinkerNewTab } from "../Linker";
+import { LinkerNewTab } from "../Linker";
+import { CenterCenter } from "../Center";
 
 export const Socials = () => {
   let socials = [
@@ -16,9 +17,8 @@ export const Socials = () => {
 
   const styles = {
     image: {
-      height: "100%",
-      width: "100%",
       opacity: 0.5,
+      margin: "auto",
     },
   };
 
@@ -27,16 +27,19 @@ export const Socials = () => {
       {socials.map((i) => (
         <Grid item xs={6} key={i.name}>
           <LinkerNewTab target={i.link}>
-            <img
-              onMouseEnter={(e) => (
-                (e.target.style.opacity = 1), (e.target.style.width = "150%")
-              )}
-              onMouseLeave={(e) => (
-                (e.target.style.opacity = 0.5), (e.target.style.width = "100%")
-              )}
-              style={styles.image}
-              src={`./${i.name}.svg`}
-            />
+            <CenterCenter>
+              <img
+                onMouseEnter={(e) => (
+                  (e.target.style.opacity = 1), (e.target.style.width = "130%")
+                )}
+                onMouseLeave={(e) => (
+                  (e.target.style.opacity = 0.5),
+                  (e.target.style.width = "100%")
+                )}
+                style={styles.image}
+                src={`./${i.name}.svg`}
+              />
+            </CenterCenter>
           </LinkerNewTab>
         </Grid>
       ))}

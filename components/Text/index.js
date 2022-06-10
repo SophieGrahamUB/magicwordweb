@@ -7,7 +7,10 @@ export const TextTitle = ({ title, subtitle }) => {
     <>
       <CenterCenter>
         <Typography
-          sx={{ fontSize: { xs: 30, md: 50 } }}
+          sx={{
+            fontSize: { xs: 30, md: 50 },
+            textAlign: { xs: "center", md: "left" },
+          }}
           variant="h3"
           fontWeight="900"
           color="white"
@@ -26,6 +29,24 @@ export const TextBody = ({ bodyWhite, bodyYellow }) => {
       <Typography color="white">{bodyWhite && bodyWhite}</Typography>
       <Typography sx={{ fontSize: { xs: 12, md: 15 } }} color="#FFBC59">
         {bodyYellow && bodyYellow}
+      </Typography>
+    </>
+  );
+};
+
+export const TextMargin = ({ body }) => {
+  return (
+    <>
+      <Typography
+        sx={{
+          fontSize: { xs: 12, md: 15 },
+          marginLeft: { xs: "30px", md: "40px" },
+          marginRight: { xs: "30px", md: "40px" },
+        }}
+        color="#FFBC59"
+      >
+        {" "}
+        {body && body}
       </Typography>
     </>
   );
