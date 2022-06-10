@@ -8,12 +8,6 @@ import { CenterCenter, Center } from "../components/Center";
 const magic10 = () => {
   const [open, setOpen] = React.useState(false);
 
-  const style = {
-    centerText: {
-      textAlign: "center",
-    },
-  };
-
   const handleOpenPopup = () => {
     setOpen(true);
   };
@@ -27,7 +21,7 @@ const magic10 = () => {
       <HeroImageClean bgImage="magic10.webp"></HeroImageClean>
       <Spacer>
         <CenterCenter>
-          <TextTitle title={"Become the better you"} style={style.centerText} />
+          <TextTitle title={"Become the better you"} />
           <Center>
             <Button
               variant="contained"
