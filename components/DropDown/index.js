@@ -78,10 +78,10 @@ export const DropDown = () => {
           onChange={(e) => setStrapColor(e.target.value)}
         >
           <option value={"Black"}>Black</option>
-          <option value={"Cream"}>Cream</option>
+          {/* <option value={"Cream"}>Cream</option>
           <option value={"Red"}>Red</option>
           <option value={"Blue"}>Blue</option>
-          <option value={"Purple"}>Purple</option>
+          <option value={"Purple"}>Purple</option> */}
         </select>
         <br />
         <br />

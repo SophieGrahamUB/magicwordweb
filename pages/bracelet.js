@@ -1,9 +1,10 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import { DropDown } from "../components/DropDown";
-import { SpacerL } from "../components/Spacer";
-import { TextTitle } from "../components/Text";
+import { SpacerL, SpacerSm } from "../components/Spacer";
+import { TextBody, TextTitle } from "../components/Text";
 import { HeroImage } from "../components/HeroImage";
+import { CenterCenter } from "../components/Center";
 
 const shop = () => {
   return (
@@ -18,6 +19,15 @@ const shop = () => {
         <SpacerL bgcolor={"#363636"}>
           <DropDown />
         </SpacerL>
+        <SpacerSm>
+          <CenterCenter>
+            <TextBody
+              bodyWhite={
+                "We're currently low on stock for most colours, apologies! We'll get this sorted soon!"
+              }
+            ></TextBody>
+          </CenterCenter>
+        </SpacerSm>
       </Grid>
     </Grid>
   );
