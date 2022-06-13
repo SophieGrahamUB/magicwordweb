@@ -26,7 +26,9 @@ export const TextTitle = ({ title, subtitle }) => {
 export const TextBody = ({ bodyWhite, bodyYellow }) => {
   return (
     <>
-      <Typography color="white">{bodyWhite && bodyWhite}</Typography>
+      <Typography color="white" sx={{ textAlign: "center" }}>
+        {bodyWhite && bodyWhite}
+      </Typography>
       <Typography sx={{ fontSize: { xs: 12, md: 15 } }} color="#FFBC59">
         {bodyYellow && bodyYellow}
       </Typography>
